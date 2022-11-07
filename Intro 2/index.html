@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Distribuidora Lion</title>
     <link rel="icon" href="img/logo leon.jpg">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -34,10 +34,10 @@
                 <a class="nav-link" href="Formularios/index-formulario.html">Registrarse</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Catalogo</a>
+                <a class="nav-link" href="pestañas/Catalogo.html">Catalogo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre nosotros</a>
+                <a class="nav-link" href="pestañas/SobreNostros.html">Sobre nosotros</a>
               </li>
             </ul>
           </div>
@@ -53,17 +53,17 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <a href="#" class="container-img">
+          <a href="pestañas/Catalogo.html" class="container-img">
             <img src="img/spinogenMax.png" alt="spinogenMax" title="SpinogenMax" class="img-center">
           </a>
         </div>
         <div class="carousel-item">
-          <a href="#" class="container-img">
+          <a href="pestañas/Catalogo.html" class="container-img">
             <img src="img/Ectogen-Max.jpg" alt="EctogenMax" title="EctogenMax" class="img-center">
           </a>
         </div>
         <div class="carousel-item">
-          <a href="#" class="container-img">
+          <a href="pestañas/Catalogo.html" class="container-img">
             <img src="img/antiparasitarios-Ectogen.webp" alt="EctogenMax" title="EctogenMax" class="img-center">
           </a>
         </div>
@@ -78,23 +78,33 @@
       </button>
     </div>
     <br><br>
-    <h4><b>Lineas de productos</b></h4>
-    <a  href="">
-      <img class="cat" src="img/banners-web-05-3.png" alt="AnimalesGrandes">
-    </a>
-    <a href="">
-      <img class="cat" src="img/pequeños.jpg" alt="AnimalesPequeños">
-    </a>
+    <section class="video">
+      <h4><b>Mira un poco sobre nuestros productos</b></h4>
+      <video autoplay muted loop class="video1">
+        <source src="img/WhatsApp Video 2022-10-21 at 18.22.19.mp4" type="video/mp4">
+      </video>
+    </section>
+   <!--
+    <section class="coment">
+      <h5>Envianos tus comentarios o sugerencias</h5><br>
+      <form action="mailto: Distribuidoralion@outlook.com" method="post" autocomplete="on">      
+        <input type="texto" name="usuario" placeholder="Escriba su Nombre" required="campo obligatorio"><br><br>
+        <textarea id="descripcion" placeholder="Escriba aqui su mensaje" placeholder="" rows="10" cols="50"></textarea>
+        <button>Enviar</button>
+      </form>
+    </section>
+  -->
+  
   </main>
   <footer>
-    <address>
+    <address class="datos">
         Distribuidora Lion<br>
         <a target="_blank" href="Distribuidoralion@outlook.com">Distribuidoralion@outlook.com</a><br>
         <a target="_blank" href="https://www.google.com.ar/maps/dir/Obelisco,+Obelisco,+Avenida+9+de+Julio,+Buenos+Aires/Plaza+Dorrego,+Humberto+1º+400,+C1103+CABA/@-34.6125563,-58.3858671,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4aa9f0a6da5edb:0x11bead4e234e558b!2m2!1d-58.3815704!2d-34.6037389!1m5!1m1!1s0x95bccb2cb4a4f489:0x71bbcb55301a33b1!2m2!1d-58.3717481!2d-34.6204914!3e3">Como llegar</a><br>
-        CiudadFalsa , CalleFalsa<br>
+        CiudadFalsa , CalleFalsa 123<br>
         1557641982
     </address>
-    <p>Copyright© 1999-2022. Distribuidora Lion Todos los derechos reservados </p>
+    <p class="datos">Copyright© 1999-2022. Distribuidora Lion Todos los derechos reservados </p>
   </footer> 
 </body>
 </html>

@@ -4,6 +4,9 @@
 main{
     background-color: rgb(231, 231, 231);
 }
+body{
+    background-image: url("../img/logo\ leon.jpg");
+}
 
 #logo {
     width: 55px;
@@ -21,7 +24,7 @@ main{
     filter: opacity(.5);
     
 }
-h4{
+section h4{
     
     color: rgb(177, 115, 0);
     text-align: center;
@@ -45,5 +48,15 @@ h4{
     width: 500px;
     margin: 75px;
     border-radius: 10px;
+    
+}
+.datos{
+    color: aliceblue;
+}
+.video{
+    text-align: center;
+}
+.video1{
+    height: 700px;
     
 }
